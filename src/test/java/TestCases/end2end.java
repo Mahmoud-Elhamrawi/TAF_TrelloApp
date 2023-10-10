@@ -17,7 +17,7 @@ public class end2end {
     @Test(priority = 0)
     public void CreateBoard()
     {
-        Response createBoard = EndPoints.endPoints.createBoard("board.v2");
+        Response createBoard = EndPoints.endPoints.createBoard("board.v7");
 
         createBoard.prettyPrint() ;
           // trelloDe_Serialization boardInfo = createBoard.body().as(trelloDe_Serialization.class);
